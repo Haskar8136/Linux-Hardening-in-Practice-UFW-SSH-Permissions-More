@@ -36,7 +36,7 @@ Perfect for beginners and a solid reference for pros.
 
 ## Why This Guide?
 
-I wrote this after configuring UFW on production servers, **Monero nodes**, and my own machines.  
+I wrote this after configuring UFW on production servers, **Kaspa nodes**, and my own machines.  
 No theory. Just **what actually works**.
 
 You'll learn how to:
