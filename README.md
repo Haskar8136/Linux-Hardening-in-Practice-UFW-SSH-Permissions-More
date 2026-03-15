@@ -1,8 +1,8 @@
-#  UFW Guide: Master the Linux Firewall
+# UFW Guide: Master the Linux Firewall
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Linux](https://img.shields.io/badge/Platform-Linux-orange)](https://www.kernel.org)
-[![UFW](https://img.shields.io/badge/Firewall-UFW-blue)](https://help.ubuntu.com/community/UFW)
+![Linux](https://img.shields.io/badge/Platform-Linux-orange)
+![UFW](https://img.shields.io/badge/Firewall-UFW-blue)
 
 A **practical, no-fluff guide** to mastering UFW (Uncomplicated Firewall) on Linux.  
 Perfect for beginners and a solid reference for pros.
@@ -24,7 +24,7 @@ Perfect for beginners and a solid reference for pros.
 
 ## Why This Guide?
 
-I wrote this after configuring UFW on production servers, Monero nodes, and my own machines.  
+I wrote this after configuring UFW on production servers, **Monero nodes**, and my own machines.  
 No theory. Just **what actually works**.
 
 You'll learn how to:
@@ -38,19 +38,19 @@ You'll learn how to:
 
 ## Tested On
 
-- Ubuntu 22.04 / 24.04  
-- Debian 12  
-- Kali Linux  
-- Raspberry Pi OS  
+- Ubuntu 22.04 / 24.04
+- Debian 12
+- Kali Linux
+- Raspberry Pi OS
 - Arch (btw)
 
 ---
 
 ## Prerequisites
 
-- A Linux machine (physical or VPS)  
-- `sudo` access  
-- 5 minutes of focus  
+- A Linux machine (physical or VPS)
+- `sudo` access
+- 5 minutes of focus
 
 ---
 
@@ -62,3 +62,34 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw allow ssh                                   # Or port 22
 sudo ufw enable
+```
+
+Done. Your server is now **90% safer**.
+
+---
+
+## How to Use This Guide
+
+1. Start with [`01-installation.md`](01-installation.md)
+2. Master the basics in [`02-basic-commands.md`](02-basic-commands.md)
+3. Dive deeper when you're ready
+4. Bookmark [`05-troubleshooting.md`](05-troubleshooting.md) for when things break
+
+---
+
+## Contributing
+
+Found a bug? A better way to explain something?  
+Open an issue or a pull request. All help is welcome.
+
+---
+
+## Contact
+
+Created by [**haskar**](https://github.com/Haskar8136) — if this helped you, **star the repo** ⭐
+
+---
+
+## License
+
+MIT — use it, share it, improve it.
