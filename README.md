@@ -84,7 +84,7 @@ Open an issue or a pull request. All help is welcome.
 
 ## Contact
 
-Created by [**haskar**](https://github.com/haskar) — if this helped you, **star the repo** ⭐
+Created by [**haskar**](https://github.com/Haskar8136) — if this helped you, **star the repo** ⭐
 
 ---
 
