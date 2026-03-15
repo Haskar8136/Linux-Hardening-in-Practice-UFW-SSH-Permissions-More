@@ -1,10 +1,10 @@
-# ⚡ Basic UFW Commands – What You'll Use Every Day
+# Basic UFW Commands – What You'll Use Every Day
 
 Once UFW is installed and enabled, these are the commands you'll actually use. No fluff.
 
 ---
 
-## 📋 Check Status
+## Check Status
 
 ```bash
 
@@ -24,7 +24,7 @@ sudo ufw status numbered
 
 ```
 Shows rules with numbers — useful when you need to delete one.
-# Allow Connections
+## Allow Connections
 ```bash
 
 sudo ufw allow 80                # Allow port 80 (HTTP)
@@ -39,14 +39,14 @@ Allow a port range
 sudo ufw allow 6000:6007/tcp
 
 ```
-# Deny Connections
+## Deny Connections
 ```bash
 
 sudo ufw deny 23                 # Deny port 23 (Telnet)
 sudo ufw deny from 203.0.113.5   # Block all traffic from a specific IP
 
 ```
-# Delete Rules
+## Delete Rules
 By exact command
 ```bash
 
@@ -61,7 +61,7 @@ sudo ufw delete 3
 
 ```
 
-# Enable / Disable / Reload
+## Enable / Disable / Reload
 ```bash
 
 sudo ufw enable                   # Turn firewall on
@@ -69,7 +69,7 @@ sudo ufw disable                  # Turn firewall off (temporary)
 sudo ufw reload                   # Reload rules without restart
 
 ```
-# Reset Everything (Start Over)
+## Reset Everything (Start Over)
 ```bash
 
 sudo ufw reset
@@ -77,7 +77,7 @@ sudo ufw reset
 ```
 This disables UFW and deletes all rules. Useful when you mess up.
 
-# Logging
+## Logging
 ```bash
 
 sudo ufw logging on               # Enable logging (default: low)
@@ -97,7 +97,7 @@ Watch live:
 sudo tail -f /var/log/ufw.log
 
 ```
-# Quick Test – Allow Then Deny
+## Quick Test – Allow Then Deny
 ```bash
 
 sudo ufw allow 8080
