@@ -105,3 +105,14 @@ sudo ufw status numbered
 sudo ufw delete 1                  # Delete rule #1
 
 ```
+## What You've Learned
+
+     Check firewall status
+
+     Allow and deny ports/IPs
+
+     Delete rules safely
+
+     Reset when things go wrong
+
+     Monitor logs
