@@ -1,4 +1,4 @@
-# 🔥 UFW Guide: Master the Linux Firewall
+#  UFW Guide: Master the Linux Firewall
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Linux](https://img.shields.io/badge/Platform-Linux-orange)](https://www.kernel.org)
@@ -9,7 +9,7 @@ Perfect for beginners and a solid reference for pros.
 
 ---
 
-## 📖 What's Inside
+## What's Inside
 
 | File | Description |
 |------|-------------|
@@ -22,17 +22,17 @@ Perfect for beginners and a solid reference for pros.
 
 ---
 
-## 🚀 Why This Guide?
+## Why This Guide?
 
 I wrote this after configuring UFW on production servers, Monero nodes, and my own machines.  
 No theory. Just **what actually works**.
 
 You'll learn how to:
 
-- ✅ Secure a Linux box in 5 minutes
-- ✅ Block attackers and bots
-- ✅ Monitor who's knocking on your ports
-- ✅ Never lock yourself out again
+-  Secure a Linux box in 5 minutes
+-  Block attackers and bots
+-  Monitor who's knocking on your ports
+-  Never lock yourself out again
 
 ---
 
@@ -46,7 +46,7 @@ You'll learn how to:
 
 ---
 
-## 📌 Prerequisites
+## Prerequisites
 
 - A Linux machine (physical or VPS)  
 - `sudo` access  
@@ -54,7 +54,7 @@ You'll learn how to:
 
 ---
 
-## ⚡ Quick Start (tl;dr)
+## Quick Start (tl;dr)
 
 ```bash
 sudo apt update && sudo apt install ufw -y          # Debian/Ubuntu
