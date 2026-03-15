@@ -10,7 +10,7 @@ sudo pacman -Syu                          # Arch
 # or
 sudo dnf update                           # Fedora
 ```
-# 2. Install UFW
+## 2. Install UFW
 Debian / Ubuntu / Kali
 ```bash
 
@@ -32,7 +32,7 @@ Verify installation
 
 ufw version
 ```
-# 3. Set Default Policies
+## 3. Set Default Policies
 Before enabling UFW, define the default behavior:
 ```bash
 
@@ -40,7 +40,7 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 ```
 This blocks everything incoming unless explicitly allowed, while letting your system reach the internet normally.
-# 4. Allow SSH (Critical – Don’t Skip)
+## 4. Allow SSH (Critical – Don’t Skip)
 
 If you’re connected remotely, allow SSH before enabling the firewall:
 ```bash
@@ -49,14 +49,14 @@ sudo ufw allow ssh
 # or, if you use a custom port:
 sudo ufw allow 2222/tcp
 ```
-# 5. Enable UFW
+## 5. Enable UFW
 ```bash
 
 sudo ufw enable
 ```
 you should see:
 Firewall is active and enabled on system startup
-# 6. Check Status
+## 6. Check Status
 ```bash
 sudo ufw status verbose
 ```
