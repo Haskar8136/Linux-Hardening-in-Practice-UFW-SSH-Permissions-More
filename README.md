@@ -36,7 +36,7 @@ You'll learn how to:
 
 ---
 
-## 🧪 Tested On
+## Tested On
 
 - Ubuntu 22.04 / 24.04  
 - Debian 12  
