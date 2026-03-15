@@ -17,8 +17,6 @@ Perfect for beginners and a solid reference for pros.
 | [`02-basic-commands.md`](02-basic-commands.md) | Essential commands you'll use daily |
 | [`03-advanced-rules.md`](03-advanced-rules.md) | Rate limiting, port ranges, app profiles |
 | [`04-monitoring.md`](04-monitoring.md) | Logs, real-time monitoring, traffic analysis |
-| [`05-troubleshooting.md`](05-troubleshooting.md) | Fix common issues (SSH lockout, conflicts) |
-| [`06-practical-examples.md`](06-practical-examples.md) | Real-world setups (servers, home PCs, nodes) |
 
 ---
 
@@ -72,8 +70,8 @@ Done. Your server is now **90% safer**.
 
 1. Start with [`01-installation.md`](01-installation.md)
 2. Master the basics in [`02-basic-commands.md`](02-basic-commands.md)
-3. Dive deeper when you're ready
-4. Bookmark [`05-troubleshooting.md`](05-troubleshooting.md) for when things break
+3. Dive deeper in [`03-advanced-rules.md`](03-advanced-rules.md)
+4. Monitor everything with [`04-monitoring.md`](04-monitoring.md)
 
 ---
 
@@ -86,7 +84,7 @@ Open an issue or a pull request. All help is welcome.
 
 ## Contact
 
-Created by [**haskar**](https://github.com/Haskar8136) — if this helped you, **star the repo** ⭐
+Created by [**haskar**](https://github.com/haskar) — if this helped you, **star the repo** ⭐
 
 ---
 
